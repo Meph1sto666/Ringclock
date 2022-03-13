@@ -1,0 +1,239 @@
+{
+    "showTime": {
+        "text": "Show time as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "startLine": {
+        "text": "Show start line",
+        "type": "checkbox",
+        "value": true
+    },
+    "autoSize": {
+        "text": "Auto resize the clock",
+        "type": "checkbox",
+        "value": true
+    },
+    "labelSpace0": {
+        "type": "label",
+        "value": ""
+    },
+    
+    "labelDesign": {
+        "type": "label",
+        "value": "Design"
+    },
+    "gradient": {
+        "text": "Gradient",
+        "type": "checkbox",
+        "value": false
+    },
+    "gradientRadius0": {
+        "text": "Inner gradient radius",
+        "type": "slider",
+        "min": 0.25,
+        "max": 4,
+        "step": 0.25,
+        "value": 1.5
+    },
+    "gradientRadius1": {
+        "text": "Outer gradient radius",
+        "type": "slider",
+        "min": 0.25,
+        "max": 4,
+        "step": 0.25,
+        "value": 1.5
+    },
+    "circleLineWidth": {
+        "text": "Width for circle lines",
+        "type": "slider",
+        "min": 0,
+        "max": 16,
+        "step": 1,
+        "value": 4
+    },
+    "labelSpace1": {
+        "type": "label",
+        "value": ""
+    },
+    
+    "showMilliseconds": {
+        "text": "Show milliseconds",
+        "type": "checkbox",
+        "value": true
+    },
+    "showMillisecondsString": {
+        "text": "Show milliseconds as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "millisecondsColor": {
+        "text": "Milliseconds color",
+        "type": "color",
+        "value": "#220000"
+    },
+    "millisecondsRadius": {
+        "text": "Milliseconds radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 175
+    },
+    
+    
+    "showSeconds": {
+        "text": "Show seconds",
+        "type": "checkbox",
+        "value": true
+    },
+    "showSecondsString": {
+        "text": "Show seconds as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "secondsColor": {
+        "text": "Seconds color",
+        "type": "color",
+        "value": "#440000"
+    },
+    "secondsRadius": {
+        "text": "Seconds radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 220
+    },
+    
+    
+    "showMinutes": {
+        "text": "Show minutes",
+        "type": "checkbox",
+        "value": true
+    },
+    "showMinutesString": {
+        "text": "Show minutes as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "minutesColor": {
+        "text": "Minutes color",
+        "type": "color",
+        "value": "#660000"
+    },
+    "minutesRadius": {
+        "text": "Minutes radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 265
+    },
+    
+    
+    "showHours": {
+        "text": "Show hours",
+        "type": "checkbox",
+        "value": true
+    },
+    "showHoursString": {
+        "text": "Show hours as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "hoursColor": {
+        "text": "Hours color",
+        "type": "color",
+        "value": "#880000"
+    },
+    "hoursRadius": {
+        "text": "Hours radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 310
+    },
+    
+    
+    "showWeekday": {
+        "text": "Show weekday",
+        "type": "checkbox",
+        "value": true
+    },
+    "showWeekdayString": {
+        "text": "Show weekday as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "weekdayColor": {
+        "text": "Weekday color",
+        "type": "color",
+        "value": "#AA0000"
+    },
+    "weekdayRadius": {
+        "text": "Weekday radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 355
+    },
+    
+    
+    "showDate": {
+        "text": "Show date",
+        "type": "checkbox",
+        "value": true
+    },
+    "showDateString": {
+        "text": "Show date as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "dateColor": {
+        "text": "Date color",
+        "type": "color",
+        "value": "#CC0000"
+    },
+    "dateRadius": {
+        "text": "Date radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 400
+    },
+    
+    
+    "showMonths": {
+        "text": "Show months",
+        "type": "checkbox",
+        "value": true
+    },
+    "showMonthsString": {
+        "text": "Show months as text",
+        "type": "checkbox",
+        "value": true
+    },
+    "monthsColor": {
+        "text": "Months color",
+        "type": "color",
+        "value": "#EE0000"
+    },
+    "monthsRadius": {
+        "text": "Months radius",
+        "type": "slider",
+        "min": 0,
+        "max": 1024,
+        "step": 1,
+        "value": 445
+    },
+    
+    "yearColor": {
+        "text": "Year color",
+        "type": "color",
+        "value": "#FF0000"
+    }
+}

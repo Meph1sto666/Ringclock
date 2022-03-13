@@ -1,0 +1,94 @@
+:root {
+    --backgroundColor: #000000;
+    
+    --yearColor: #330000;
+    --monthsColor: #00FFFF;
+    --dateColor: #00FFFF;
+    --weekdayColor: #00FFFF;
+    
+    --hoursColor: #00FFFF;
+    --minutesColor: #00FF00;
+    --secondsColor: #FF00FF;
+    --millisecondsColor: #00FFFF;
+    
+    --colonColor: transparent;
+    
+    --fontFamily: Orbitron;
+    --fontSize: 32px;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+* {
+    font-family: var(--fontFamily);
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+#time_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+#numbers_container {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #00FFFF;
+}
+.number {
+    background-color: transparent;
+    border: none;
+    font-size: var(--fontSize);
+    font-family: var(--fontFamily);
+    width: 30px;
+}
+.number.colon {
+    color: var(--colonColor);
+}
+.number.hours {
+    color: var(--hoursColor);
+}
+.number.minutes {
+    color: var(--minutesColor);
+}
+.number.seconds {
+    color: var(--secondsColor);
+}
+.number.milliseconds {
+    color: var(--millisecondsColor);
+}
+
+.date {
+    font-size: var(--fontSize);
+    border: none;
+    background-color: transparent;
+}
+#weekday {
+    color: var(--weekdayColor);
+}
+#date {
+    color: var(--dateColor);
+}
+#month {
+    color: var(--monthsColor);
+}
+#year {
+    color: var(--yearColor);
+}
